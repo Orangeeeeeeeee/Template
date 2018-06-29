@@ -18,8 +18,8 @@ $facebook-width: 64px;
 $facebook-height: 64px;
 $facebook-total-width: 88px;
 $facebook-total-height: 64px;
-$facebook-image: 'sprite.png';
-$facebook: (0px, 0px, 0px, 0px, 64px, 64px, 88px, 64px, 'sprite.png', 'facebook', );
+$facebook-image: '../img/icons-png/sprite.png';
+$facebook: (0px, 0px, 0px, 0px, 64px, 64px, 88px, 64px, '../img/icons-png/sprite.png', 'facebook', );
 $guitar-name: 'guitar';
 $guitar-x: 64px;
 $guitar-y: 0px;
@@ -29,13 +29,13 @@ $guitar-width: 24px;
 $guitar-height: 24px;
 $guitar-total-width: 88px;
 $guitar-total-height: 64px;
-$guitar-image: 'sprite.png';
-$guitar: (64px, 0px, -64px, 0px, 24px, 24px, 88px, 64px, 'sprite.png', 'guitar', );
+$guitar-image: '../img/icons-png/sprite.png';
+$guitar: (64px, 0px, -64px, 0px, 24px, 24px, 88px, 64px, '../img/icons-png/sprite.png', 'guitar', );
 $spritesheet-width: 88px;
 $spritesheet-height: 64px;
-$spritesheet-image: 'sprite.png';
+$spritesheet-image: '../img/icons-png/sprite.png';
 $spritesheet-sprites: ($facebook, $guitar, );
-$spritesheet: (88px, 64px, 'sprite.png', $spritesheet-sprites, );
+$spritesheet: (88px, 64px, '../img/icons-png/sprite.png', $spritesheet-sprites, );
 
 // The provided mixins are intended to be used with the array-like variables
 //

@@ -18,7 +18,7 @@ gulp.task("style:build", function(){
             browsers: ['last 15 versions'],
             cascade: false
         }))
-        .pipe(cssmin())
+        // .pipe(cssmin())
         .pipe(sourcemaps.write())
         .pipe(gulp.dest(config.build.css))
         .pipe(reload({stream: true}));
