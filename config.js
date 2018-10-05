@@ -8,10 +8,10 @@ var path = {
         tmp:'tmp'
     },
     src: { //Пути откуда брать исходники
-        html: 'src/*.html', //Синтаксис src/*.html говорит gulp что мы хотим взять все файлы с расширением .html
-        js: 'src/js/app.js',//В стилях и скриптах нам понадобятся только main файлы
+        html: 'src/*.html',
+        js: 'src/js/app.js',
         style: 'src/styles/**/*.{sass,scss}',
-        img: 'src/img/**/*.*', //Синтаксис img/**/*.* означает - взять все файлы всех расширений из папки и из вложенных каталогов
+        img: 'src/img/**/*.*',
         fonts: 'src/fonts/**/*.*',
         svg: 'src/img/icons-svg/*.svg',
         png: 'src/img/icons-png/*.png'
@@ -35,7 +35,8 @@ var path = {
     ignor:{
         svg: '!src/img/icons-svg/sprite.svg',
         png: '!src/img/icons-png/sprite.png'
-    }
+    },
+    libs: ['node_modules/jquery/dist/jquery.min.js', 'node_modules/slick-carousel/slick/slick.min.js']
 };
 
 module.exports = path;

@@ -15,7 +15,4 @@ gulp.task('watch', function(){
     watch([config.watch.img], function() {
         gulp.start('img:build');
     });
-    watch([config.watch.fonts], function() {
-        gulp.start('fonts:build');
-    });
 });
